@@ -1,6 +1,7 @@
 import string
 import StringIO
 
+
 def is_opposite(a, b):
     return a == b.swapcase() and b == a.swapcase()
 
